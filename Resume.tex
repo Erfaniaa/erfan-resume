@@ -1,0 +1,479 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TEX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,10pt,oneside]{article}
+%\documentclass[letterpaper,10pt,oneside]{article}
+
+% Do not stop on errors during compilation.
+\nonstopmode
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{CV-Preamble.tex}
+
+% CV Info (to be customized).
+\newcommand{\CVTitle}{Erfan Alimohammadi's Resume}
+\newcommand{\CVNote}{Resume compiled on {\today}}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={Erfan Alimohammadi},
+pdfsubject={http://palindrome.ir},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+pdfpagemode={},
+bookmarks=true,
+unicode=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{Erfan Alimohammadi}
+
+\begin{subtitle}
+\href{}
+% {No 7, 109 Street, Shahid Ajellu Street, Tehranpars, Tehran, Iran}
+{Tehran, Iran}
+\par
+\href{mailto:e.alimohammadi@mail.sbu.ac.ir}
+{e.alimohammadi@mail.sbu.ac.ir}
+% \,\BulletSymbol\,
+% +98\,-21-\,77723328
+\,\BulletSymbol\,
+\href{http://palindrome.ir}
+{http://palindrome.ir}
+\end{subtitle}
+
+\begin{body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section
+{Education}
+{Education}
+{PDF:Education}
+    
+\href{http://sbu.ac.ir}
+{\textbf{Shahid Beheshti University}},
+Tehran, Iran
+
+\SmallEntryGap
+Bachelor of Science (B.Sc) in
+\href{http://sbu.ac.ir}
+{Computer Engineering}
+% , GPA: 16.76/20
+\hfill
+\DatestampY{2015} --
+\DatestampY{present}
+
+\EntryGap
+\href{http://helli.ir}
+{\textbf{Allame Helli High School}},
+Tehran, Iran
+\par
+Affiliated with the National Organization for the Development of Exceptional Talents (\href{http://www.nodet.net/}{NODET}), Diploma in Mathematics and Physics Discipline
+\hfill
+\DatestampY{2011} --
+\DatestampY{2015}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PROFESSIONAL EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Professional Experience}
+{Professional Experience}
+{PDF:ProfessionalExperience}
+
+\href{http://cafebazaar.ir}
+{\textbf{Software Developer at Cafe Bazaar}}
+\par
+Back-end developer and Web developer
+\hfill
+\DatestampY{2016} --
+\DatestampY{present}
+
+\EntryGap
+\href{http://sabzbiomedicals.com}
+{\textbf{Software Developer at Sabz Biomedicals Co.}}
+\par
+Developing Gel Doc software using Delphi compiler
+\hfill
+\DatestampY{2015} --
+\DatestampY{2016}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% HONORS & AWARDS          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Honors\newline
+\& Awards}
+{Honors \& Awards}
+{PDF:HonorsAwards}
+
+{\textbf{56th rank,}}
+\hfill
+\DatestampY{2017}
+\par
+ACM-ICPC World Finals, Rapid City
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Finalist,}}
+\hfill
+\DatestampY{2015}
+\par
+Bayan Programming Contest, Tehran
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Qualified as the top 80 students,}}
+\hfill
+\DatestampY{2014}
+\par
+24th Iranian National Olympiad in Informatics, Tehran, Iran
+\begin{detail}
+(in the third round of 24th INOI)
+\end{detail}
+
+\EntryGap
+{\textbf{1st Place,}}
+\hfill
+\DatestampY{2011}
+\par
+6th Hellinet Programming Contest, Tehran, Iran
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{3rd Place,}}
+\hfill
+\DatestampY{2012}
+\par
+First Students Programming Contest, Hormozgan, Iran
+\begin{detail}
+Programming contest for high school students held by MEDU, FAVA Festival
+\end{detail}
+
+\EntryGap
+{\textbf{Best Project Award,}}
+\hfill
+\DatestampY{2011}
+\par
+8th NODET Young Reseachers Festival, For Project ”Farsi OCR”
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Second Best Project Award,}}
+\hfill
+\DatestampY{2011}
+\par
+8th NODET Young Reseachers Festival, For Project ”Farsi CAPTCHA”
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Qualified as the top 8 teams,}}
+\hfill
+\DatestampY{2016}
+\par
+Sharif AI Challenge contest, Tehran, Iran
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Selected project of Tehran state}}
+\hfill
+\DatestampY{2014}
+\par
+Khwarizmi Festival, Tehran, Iran
+\begin{detail}
+(for "Digital Signature" project)
+\end{detail}
+
+\EntryGap
+{\textbf{Selected project of Tehran state}}
+\hfill
+\DatestampY{2014}
+\par
+Khwarizmi Festival, Tehran, Iran
+\begin{detail}
+(for "Digital Signature" project)
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TECHNICAL SKILLS         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Technical Skills}
+{Technical Skills}
+{PDF:TechnicalSkills}
+
+{\textbf{Theorical Background}}
+\hfill
+\par
+Experienced in Design of Algorithms, Data Structures and Discrete Mathematical
+fields such as Graph Theory and Combinatorics.
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Programming and Scripting}}
+\hfill
+\par
+Fluent in C/C++, Pascal and Delphi
+\par
+Experienced in Java, Python, HTML and Javascript
+\par
+Familiar with C\#, PHP and AVR Programming
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Libraries}}
+\hfill
+\par
+Familiar with jQuery, OpenCV and XNA
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Frameworks}}
+\hfill
+\par
+Experienced in Django and Android Studio
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Operating Systems}}
+\hfill
+\par
+Experienced Linux user; currently using Ubuntu, also comfortable with Fedora and Microsoft Windows
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Tools}}
+\hfill
+\par
+Adobe Photoshop, Microsoft Office
+\begin{detail}
+\end{detail}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TEACHING EXPERIENCE                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Teaching Experience}
+{Teaching Experience}
+{PDF:TeachingExperience}
+
+{\textbf{Allameh Helli High School, Tehran, Iran}}
+\hfill
+\DatestampY{2015}
+\par
+Data Structures and Algorithm Design (preparing students for INOI)
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Allameh Amini High School, Tehran, Iran}}
+\hfill
+\DatestampY{2015} --
+\DatestampY{2016}
+\par
+C++ Programming and Algorithm Design (preparing students for INOI)
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Shahid Beheshti University, Tehran, Iran}}
+\hfill
+\DatestampY{2016}
+\par
+Introduction to Programming, Discrete Mathematics and Advanced Programming teaching assistant
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Shahid Beheshti University, Tehran, Iran}}
+\hfill
+\DatestampY{2017}
+\par
+Data Structures teaching assistant
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Shahid Beheshti University, Tehran, Iran}}
+\hfill
+\DatestampY{2017}
+\par
+Python workshop
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Shahid Beheshti University, Tehran, Iran}}
+\hfill
+\DatestampY{2017}
+\par
+Summer camp for ACM-ICPC
+\begin{detail}
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% PROJECTS          %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Projects}
+{Projects}
+{PDF:Projects}
+
+{\textbf{Reinforcement Learning Project}}
+\hfill
+\DatestampY{2012}
+\par
+A simulated soccer player in Pascal 2D graphics environment, learning how to dribble a ball to increase chance of making a goal
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Farsi CAPTCHA}}
+\hfill
+\DatestampY{2011} --
+\DatestampY{2012}
+\par
+Generating Farsi CAPTCHA by using image processing and calligraphy methods, can be used in Persian websites
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Farsi OCR}}
+\hfill
+\DatestampY{2011} --
+\DatestampY{2012}
+\par
+Using image processing and multi layer neural networks for recognizing drawn Persian characters in Delphi platform
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{\href{http://30minar.ir}{30minar.ir}}}
+\hfill
+\DatestampY{2011} --
+\DatestampY{2012}
+\par
+Designed a platform for 30th seminar of Allameh Helli High School, used for managing tasks related to students and teachers
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Messenger}}
+\hfill
+\DatestampY{2016}
+\par
+Designed a minimal chat platform using Java (for Advanced Programming course)
+\begin{detail}
+\end{detail}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% OTHER WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Other Activities\newline
+and Experiences}
+{Other Activities\newline
+and Experiences}
+{PDF:OtherActivitiesAndExperiences}
+
+{\textbf{Co-Author of Codeforces Round \#261}}
+\hfill
+\DatestampY{2014}
+\par
+Preparing a programming contest on Codeforces platform More than 4700 programmers participated in the contest
+\begin{detail}
+\end{detail}
+
+% \EntryGap
+% {\textbf{Co-Author of 10th \href{http://hellinet.ir}{Hellinet} AI Challenge Round}}
+% \hfill
+% \DatestampY{2014}
+% \par
+% \begin{detail}
+% \end{detail}
+
+\EntryGap
+{\textbf{Interested in Graphic Design}}
+\hfill
+\par
+\begin{detail}
+\end{detail}
+
+\EntryGap
+{\textbf{Interested in Blogging at \href{http://blog.opso.ir}{blog.opso.ir}}}
+\hfill
+\par
+\begin{detail}
+\end{detail}
+
+
+\end{body}
+
+
+%%%%%%%%%%%
+% CV NOTE %
+%%%%%%%%%%%
+
+\label{LastPage}~
+\end{document}
