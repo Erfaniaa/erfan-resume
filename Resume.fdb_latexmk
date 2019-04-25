@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1536068576 "Resume.tex" "Resume.pdf" "Resume" 1536068577
+["pdflatex"] 1556177894 "Resume.tex" "Resume.pdf" "Resume" 1556177968
   "/etc/texmf/web2c/texmf.cnf" 1529246658 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -66,13 +66,13 @@
   "/usr/share/texmf/tex/latex/tipa/t3cmr.fd" 1414244106 1257 fd5b1c2f0106f9cf12cdb2ff961987c5 ""
   "/usr/share/texmf/tex/latex/tipa/t3enc.def" 1414244106 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
-  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1536068537 2420967 5a81e208588198658d77ec7b36b15eb1 ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1539510749 2420969 27df7c7560a2da405c7456c1c0296262 ""
   "CV-Preamble.tex" 1536067828 5686 cb8b7222c6d992c2bd4eec91d5e3e625 ""
-  "Resume.aux" 1536068576 744 f169f9e3feecf39f713d98a568dfec8d ""
-  "Resume.out" 1536068576 678 9ab3921032e1c17b85d2e1cf10b9d5cf ""
+  "Resume.aux" 1556177895 744 f169f9e3feecf39f713d98a568dfec8d ""
+  "Resume.out" 1556177895 678 9ab3921032e1c17b85d2e1cf10b9d5cf ""
   "Resume.tex" 1536067769 9762 72f315f9286e0f28dec859383ba1279c ""
   (generated)
-  "Resume.out"
-  "Resume.aux"
-  "Resume.log"
   "Resume.pdf"
+  "Resume.aux"
+  "Resume.out"
+  "Resume.log"
