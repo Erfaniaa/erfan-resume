@@ -46,6 +46,7 @@
 %-------------------------------------------------------------------------------
 %                3rd party packages
 %-------------------------------------------------------------------------------
+\usepackage{xcolor,soul,lipsum} % Added by Erfan
 % Needed to make fixed length table
 \RequirePackage{array}
 % Needed to handle list environment
@@ -81,14 +82,15 @@
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
 % Needed to deal hyperlink
-\RequirePackage[hidelinks,unicode]{hyperref}
-\hypersetup{%
-  pdftitle={},
-  pdfauthor={},
-  pdfsubject={},
-  pdfkeywords={}
-}
+\RequirePackage[unicode]{hyperref}
+% \hypersetup{%
+%   pdftitle={},
+%   pdfauthor={},
+%   pdfsubject={},
+%   pdfkeywords={}
+% }
 
+\newcommand{\ulhref}[2]{\href{#1}{\setulcolor{red}\ul{#2}}} % Added by Erfan
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
