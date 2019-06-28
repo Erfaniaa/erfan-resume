@@ -41,7 +41,7 @@
   (generated)
   "resume.dvi"
   "resume.log"
-["pdflatex"] 1561746647 "resume.tex" "resume.pdf" "resume" 1561746649
+["pdflatex"] 1561748218 "resume.tex" "resume.pdf" "resume" 1561748219
   "/etc/texmf/web2c/texmf.cnf" 1529246658 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -187,11 +187,11 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1539510749 2420969 27df7c7560a2da405c7456c1c0296262 ""
-  "awesome-cv.cls" 1561746499 26942 dc112bccb080005391db333185703a5e ""
+  "awesome-cv.cls" 1561748216 27108 9fc99b8272a3f230c270143f953be75e ""
   "fontawesome.sty" 1536068640 98046 7347fb084abf1308033c4d26f24f7a42 ""
-  "resume.aux" 1561746648 665 82c456479ed516bc5a94b04c48282691 ""
-  "resume.out" 1561746648 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "resume.tex" 1561745397 3506 59a3e032850d71c69a8e0255d1cd346a ""
+  "resume.aux" 1561748219 665 82c456479ed516bc5a94b04c48282691 ""
+  "resume.out" 1561748219 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "resume.tex" 1561748204 3505 6bd53922b8519b4d408d490c2a712268 ""
   "resume/education.tex" 1561745489 1490 8dc3e7284f547aff983401558bda6b07 ""
   "resume/experience.tex" 1561745496 2547 85d32d3ab24a053615beec0fc52d25ff ""
   "resume/honors.tex" 1561746588 6292 4eed15fbfd3c8aff69c19269033eb766 ""
@@ -200,7 +200,7 @@
   "resume/skills.tex" 1537525123 1032 add020cc3f6e492b9c2c25c72ebdb1da ""
   "resume/teaching.tex" 1561746646 4644 67cc772dd568f4edf502fbfe35ab1ed0 ""
   (generated)
-  "resume.aux"
   "resume.out"
   "resume.pdf"
   "resume.log"
+  "resume.aux"
