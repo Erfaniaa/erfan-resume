@@ -453,7 +453,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{http://\@homepage}{\faHome\acvHeaderIconSep\setulcolor{red}\ul{palindrome.ir}}%
+          \href{http://\@homepage}{\faHome\acvHeaderIconSep\setulcolor{red}\ul{me.palindrome.ir}}%
         }%
       \ifthenelse{\isundefined{\@github}}%
         {}%
